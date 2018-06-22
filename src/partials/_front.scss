@@ -1,0 +1,28 @@
+.front {
+  font-size: 40px;
+  background-color: #2E3532;
+  height: 100vh;
+  color: #C7CEDB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+    h1,h2,p {
+      margin-left: 10vw;
+      animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+      margin-bottom: 30px;
+    }
+}
+
+a {
+  text-decoration: none;
+  color: #C7CEDB;
+}
+
+.button-front {
+  animation:slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both;
+  margin-left: 80vh;
+  align-self: center;
+  cursor: pointer;
+  border-bottom: 2px solid #C7CEDB;
+}
