@@ -1,7 +1,55 @@
+.navigation {
+  animation:slide-in-right-nav 0.75s cubic-bezier(.25,.46,.45,.94) both;
+}
+
+
 .col-4 {
+  color: #C7CEDB;
+  font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-color: #2E3532;
   height: 100vh;
+    p {
+      font-size: 15px;
+      font-style: italic;
+      &:hover {
+        text-decoration: line-through;
+      }
+    }
+}
+
+.sit {
+  &:hover {
+    transition: 2s;
+    background-image: url("./images/sitonchair.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+}
+
+.janmar {
+  &:hover {
+    transition: 2s;
+    background-image: url("./images/jan.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+}
+
+.an {
+  &:hover {
+    transition: 2s;
+    background-image: url("./images/an.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
 }

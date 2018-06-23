@@ -73,6 +73,13 @@
   100% {
     transform: translateX(0);
     opacity: 1; } }
+@keyframes slide-in-right-nav {
+  0% {
+    transform: translateX(600px);
+    opacity: 0; }
+  100% {
+    transform: translateX(0);
+    opacity: 1; } }
 .front {
   font-size: 40px;
   background-color: #2E3532;
@@ -84,25 +91,76 @@
   align-items: left; }
   .front h1, .front h2, .front p {
     margin-left: 10vw;
-    animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-in-left 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     margin-bottom: 30px; }
+
+p {
+  text-transform: uppercase;
+  font-size: 30px; }
 
 a {
   text-decoration: none;
   color: #C7CEDB; }
 
 .button-front {
-  animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-right 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   margin-left: 80vh;
   align-self: center;
   cursor: pointer;
   border-bottom: 2px solid #C7CEDB; }
 
-.col-4 {
+.icons {
+  margin-top: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row; }
+  .icons img {
+    margin-right: 40px; }
+    .icons img:hover {
+      transition: 0.5s;
+      transform: scale(1.25); }
+
+.navigation {
+  animation: slide-in-right-nav 0.75s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+
+.col-4 {
+  color: #C7CEDB;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: #2E3532;
   height: 100vh; }
+  .col-4 p {
+    font-size: 15px;
+    font-style: italic; }
+    .col-4 p:hover {
+      text-decoration: line-through; }
+
+.sit:hover {
+  transition: 2s;
+  background-image: url("./images/sitonchair.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer; }
+
+.janmar:hover {
+  transition: 2s;
+  background-image: url("./images/jan.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer; }
+
+.an:hover {
+  transition: 2s;
+  background-image: url("./images/an.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer; }
 
 /*# sourceMappingURL=App.css.map */

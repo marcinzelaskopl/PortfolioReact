@@ -9,9 +9,14 @@
   align-items: left;
     h1,h2,p {
       margin-left: 10vw;
-      animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+      animation:slide-in-left 1.5s cubic-bezier(.25,.46,.45,.94) both;
       margin-bottom: 30px;
     }
+}
+
+p {
+  text-transform: uppercase;
+  font-size: 30px;
 }
 
 a {
@@ -20,9 +25,24 @@ a {
 }
 
 .button-front {
-  animation:slide-in-right .5s cubic-bezier(.25,.46,.45,.94) both;
+  animation:slide-in-right 1.5s cubic-bezier(.25,.46,.45,.94) both;
   margin-left: 80vh;
   align-self: center;
   cursor: pointer;
   border-bottom: 2px solid #C7CEDB;
+}
+
+.icons {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+    img {
+      margin-right: 40px;
+      &:hover {
+        transition: 0.5s;
+        transform: scale(1.25);
+      }
+    }
 }
