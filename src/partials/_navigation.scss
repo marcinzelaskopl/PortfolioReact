@@ -24,9 +24,9 @@
 .sit {
   &:hover {
     transition: 2s;
-    background-image: url("./images/sitonchair.png");
+    background-image: url("./images/sit-bg.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     cursor: pointer;
   }

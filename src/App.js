@@ -8,6 +8,7 @@ import {
     Switch,
 } from 'react-router-dom';
 import Navigation from "./js/Navigation";
+import SitOnChair from "./js/SitOnChair";
 
 class App extends React.Component {
     render() {
@@ -16,6 +17,7 @@ class App extends React.Component {
                 <Switch>
                     <Route exact path='/' component={Main} />
                     <Route exact path='/navigation' component={Navigation} />
+                    <Route exact path='/navigation/sitonchair' component={SitOnChair} />
                 </Switch>
             </div>
         </HashRouter>;

@@ -76,17 +76,4 @@ class Navigation extends React.Component {
     }
 }
 
-class Portfolio extends React.Component {
-    render() {
-        return <HashRouter>
-            <div>
-                <Navigation/>
-                <Switch>
-                    <Route exact path='/navigation/sitonchair' component={SitOnChair} />
-                </Switch>
-            </div>
-        </HashRouter>;
-    }
-}
-
 export default Navigation

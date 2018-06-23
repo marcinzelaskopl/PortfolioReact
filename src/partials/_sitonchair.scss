@@ -1,0 +1,30 @@
+.sit-bg {
+  font-size: 80px;
+  color: #2E3532;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation:slide-in-right-nav 0.75s cubic-bezier(.25,.46,.45,.94) both;
+  height: 100vh;
+  background-image: url("./images/sit-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  background-attachment: fixed;
+
+    h3 {
+      font-size: 60px;
+      border-bottom: 8px solid #6B6D76;
+    }
+}
+
+.sit-inner {
+  height: 100vh;
+  background-color: #2E3532;
+}
+
+.sit-inner-info{
+  color: #C7CEDB;
+}
