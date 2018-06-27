@@ -62,14 +62,15 @@ class Navigation extends React.Component {
                         <h3 style={{visibility: this.state.visibility}}>Sit on Chair</h3>
                         <p style={{visibility: this.state.visibility}}>Fun project for a friend</p>
                     </div></Link>
-                    <div onMouseEnter={this.handleOff2} onMouseLeave={this.handleOn2} className={'col-4 janmar'}>
+                    <Link to='navigation/janmar'><div onMouseEnter={this.handleOff2} onMouseLeave={this.handleOn2} className={'col-4' +
+                    ' janmar'}>
                         <h3 style={{visibility: this.state.visibility2}}>Janmar</h3>
                         <p style={{visibility: this.state.visibility2}}>Web Design</p>
-                    </div>
-                    <div onMouseEnter={this.handleOff3} onMouseLeave={this.handleOn3} className={'col-4 an'}>
+                    </div></Link>
+                    <Link to='/navigation/nadolna'><div onMouseEnter={this.handleOff3} onMouseLeave={this.handleOn3} className={'col-4 an'}>
                         <h3 style={{visibility: this.state.visibility3}}>Asia Nadolna Portfolio</h3>
                         <p style={{visibility: this.state.visibility3}}>Web Design</p>
-                    </div>
+                    </div></Link>
                 </div>
             </div>
         )

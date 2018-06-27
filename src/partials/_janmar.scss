@@ -1,46 +1,51 @@
-.sit-bg {
+.janmar-bg {
   font-size: 80px;
-  color: #2E3532;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   animation:slide-in-right-nav 0.75s cubic-bezier(.25,.46,.45,.94) both;
   height: 100vh;
-  background-image: url("./images/sit-bg.jpg");
+  background-image: url("./images/jan.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.9;
   background-attachment: fixed;
 
-    h3 {
-      font-size: 60px;
-      border-bottom: 8px solid #6B6D76;
-    }
+  h3 {
+    font-size: 60px;
+    border-bottom: 8px solid #6B6D76;
+  }
 }
 
-.sit-inner {
-  height: 220vh;
-  background-color: #2E3532;
+.janmar-inner {
+  height: 100vh;
+  background-color: #C7CEDB;
 }
 
-.sit-inner-info{
+.janmar-inner-info{
   text-align: center;
   font-size: 40px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: #C7CEDB;
-    h5 {
-      margin-top: 10vh;
-      margin-bottom: 7vh;
-      border-bottom: 2px solid #C7CEDB;
-    }
-    p {
-      text-transform: none;
-      margin-bottom: 7vh;
-    }
+  color: #2E3532;
+  h5 {
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    border-bottom: 2px solid #C7CEDB;
+  }
+  p {
+    text-transform: none;
+    margin-bottom: 7vh;
+  }
+  img {
+    height: 60vh;
+    border-radius: 15px;
+    border: 2px solid #2E3532;
+
+  }
 }
 
 .footer {
@@ -51,17 +56,13 @@
   height: 30vh;
   border-top: 1px solid #C7CEDB;
   background-color: #2E3432;
-    p {
-      font-size: 40px;
-      font-style: italic;
-      &:hover {
-        cursor: pointer;
-        transition: 0.5s;
-        transform: scale(1.15);
-      }
+  p {
+    font-size: 40px;
+    font-style: italic;
+    &:hover {
+      cursor: pointer;
+      transition: 1s;
+      transform: scale(1.15);
     }
-}
-
-.sit-sample {
-  margin-top: 10px;
+  }
 }

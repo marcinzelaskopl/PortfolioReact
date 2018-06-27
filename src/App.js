@@ -9,6 +9,8 @@ import {
 } from 'react-router-dom';
 import Navigation from "./js/Navigation";
 import SitOnChair from "./js/SitOnChair";
+import Janmar from "./js/Janmar";
+import Nadolna from "./js/Nadolna";
 
 class App extends React.Component {
     render() {
@@ -18,6 +20,8 @@ class App extends React.Component {
                     <Route exact path='/' component={Main} />
                     <Route exact path='/navigation' component={Navigation} />
                     <Route exact path='/navigation/sitonchair' component={SitOnChair} />
+                    <Route exact path='/navigation/janmar' component={Janmar}/>
+                    <Route exact path='/navigation/nadolna' component={Nadolna}/>
                 </Switch>
             </div>
         </HashRouter>;
